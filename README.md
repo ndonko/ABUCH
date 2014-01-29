@@ -8,18 +8,15 @@ Just an experiment with Sinatra and DataMapper to make a RESTful/JSON web servic
 
 ## Run the application
 
-`foreman start`
+`shotgun app.rb`
 
-## Tests
-### Run the tests
 
-###`rake` runs the whole testsuite.
 
 ### Testing with restclient 
 
 Here are a couple of example REST requests using `RestClient`:
 
- ndonko@ndonko:~/B5_Vorlesung/ABUCH$ restclient http://localhost:4567
+   restclient http://localhost:4567
 
      > get '/persons'
      
