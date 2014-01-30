@@ -16,7 +16,7 @@ Just an experiment with Sinatra and DataMapper to make a RESTful/JSON web servic
 
 Here are a couple of example REST requests using `RestClient`:
 
-   restclient http://localhost:4567
+   restclient http://localhost:9393
 
      > get '/persons'
      
