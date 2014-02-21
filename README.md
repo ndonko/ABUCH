@@ -9,6 +9,10 @@
   `shotgun myapp`
  
  Mit shotgun muss man der server nicht ständig neu starten
+ 
+ Die seite kann man unter  `http://localhost:9393` betrachten
+ 
+# Datamapper
 
 # Sinatra RESTful Web Service
 
