@@ -1,0 +1,8 @@
+<ul class="people">
+  <% @persone.each do |p| %>
+    <li>
+     <%= "<a href='/persone/edit/#{p[:id]}'>" %>  <%= p.first_name %> </a>
+      <%= p.last_name %>
+    </li>
+  <% end %>
+</ul>
