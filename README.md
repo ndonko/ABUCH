@@ -12,7 +12,22 @@
  
  Die seite kann man unter  `http://localhost:9393` betrachten
  
-# Datamapper
+# Datamapper installation
+
+# Rest Web Services
+
+# Verzeichniss structure des Adressbuch-Dienst
+
+ ABUCH
+     models
+         person.rb
+     views
+         index.html.erb
+  app.rb
+  config.ru
+  Gemfile
+  Gemfile.lock
+  README.md
 
 # Sinatra RESTful Web Service
 
