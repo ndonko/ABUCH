@@ -68,7 +68,7 @@ put "/persone/:id" do
     content_type :json
     persone=Person.get(params[:id])
     persone.update(:name => params[:name],
-                   :vorname => params[:vorname],
+                   :vorname => params[:vorname],         #  ruby symbole
                    :email => params[:email],
                    :handynummer => params[:handynummer],
                    :plz => params[:plz],

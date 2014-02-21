@@ -1,3 +1,11 @@
+ #definition und installation von sinatra
+ Sinatra ist eine DSL, die das schnelle Erstellen von Webanwendungen in Ruby mit minimalem Aufwand ermöglicht:
+ `# myapp.rb
+   require 'sinatra'
+    get '/' do
+    'Hallo Welt!'
+  end `
+
 # Sinatra RESTful Web Service
 
 Just an experiment with Sinatra and DataMapper to make a RESTful/JSON web service.
