@@ -1,11 +1,14 @@
 # definition und installation von sinatra
  
  Sinatra ist eine DSL, die das schnelle Erstellen von Webanwendungen in Ruby mit minimalem Aufwand ermöglicht:
- `# myapp.rb
-   require 'sinatra'
-    get '/' do
-    'Hallo Welt!'
-  end `
+ 
+ Einfach via Rubygems installieren und starten
+ 
+ `gem install sinatra`
+ 
+  `shotgun myapp`
+ 
+ Mit shotgun muss man der server nicht ständig neu starten
 
 # Sinatra RESTful Web Service
 
