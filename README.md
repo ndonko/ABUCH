@@ -1,4 +1,5 @@
- #definition und installation von sinatra
+# definition und installation von sinatra
+ 
  Sinatra ist eine DSL, die das schnelle Erstellen von Webanwendungen in Ruby mit minimalem Aufwand ermöglicht:
  `# myapp.rb
    require 'sinatra'
